@@ -1,0 +1,54 @@
+		/* Titulo inicio */
+    .title1 {
+  		  color: green;
+  		  text-align: center;
+  		  text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+		}
+
+    /* borda cartão */
+		.border_cards {
+    		border: 2px solid powderblue;
+    		width: 340px;
+    		height: 570px;
+    		padding: 15px 35px 35px 35px;
+    		box-shadow: 10px 10px 5px grey;
+		}
+
+    /* borda descrição */
+		.border_description {
+			 width: 300px;
+       height: 246px;
+			 padding: 3px;
+    	 border: 2px solid powderblue;
+    }
+
+    /* formato imagen animal */
+    .imagen_animal  {
+        width: 300px;
+        height: 246px;
+        margin: 5px;
+    }
+
+    /* formato italic */
+    .fonte_italic {
+        font-style: italic;
+    }
+
+    /* container principal */
+    .img-container {
+    	 float: left;
+    	 margin-bottom: 10px;
+    }
+
+    /* imagen de fundo */
+	  .polaroid {
+  		  width: 80%;
+  		  background-image: url('image_back1.jpg');
+  	}
+
+    /* remove ponto lista */    
+    .remove_bullet {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
